@@ -9,8 +9,8 @@ while True:
     if len(letra_digitada) > 1:
         print('Digite apenas uma letra: ')
         
-    if letra_digitada.isdigit():
-        print('Apenas letras')
+    # if letra_digitada.isdigit():
+    #     print('Apenas letras')
         continue
 
     if letra_digitada in palavra_secreta:
